@@ -4,9 +4,11 @@ const emailInput = document.querySelector('#email');
 const plus1Input = document.querySelector('#plus1');
 const submissionResponseEl = document.querySelector('#response');
 
-// Action to be performed on click store in named function
+
+
+
 function showResponse(event) {
-  // Prevent default action
+  
   event.preventDefault();
   console.log(event);
   const response =
@@ -20,5 +22,11 @@ function showResponse(event) {
   submissionResponseEl.textContent = response;
 }
 
-// Add listener to submit element
+function checkField(){ 
+if (nameInput.trim() === '' || emailInput.value.trim() === '' || plus1Input.value.trim()  === '') {
+  alert('All fields are required.');
+} }
+
+
+
 submitEl.addEventListener('click', showResponse);
