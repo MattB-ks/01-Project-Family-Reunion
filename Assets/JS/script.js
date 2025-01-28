@@ -43,10 +43,13 @@ signupBtn.addEventListener('click', function () {
 //This is the function to add the signupName and signupEmail to the signupArray
 
 const images = [
-    "Images/Tree.jpg",
-    "Images/Family group.jpg",
-    "Images/Family meal.jpg",
-  ];
+  "Assets/Images/Tree.jpg",
+  "Assets/Images/1.jpg",
+  "Assets/Images/Family group.jpg",
+  "Assets/Images/2.jpg",
+  "Assets/Images/Family meal.jpg",
+  "Assets/Images/3.jpg",
+];
   
 const imageContainer = document.querySelector(".carousel-inner .active img");
 const prevButton = document.querySelector(".carousel-control-prev");
