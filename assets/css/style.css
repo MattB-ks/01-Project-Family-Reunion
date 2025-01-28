@@ -22,3 +22,58 @@
 
     .carousel-control-prev-icon, .carousel-control-next-icon {
         background-color: black;
+    }
+
+
+    
+    
+      
+    input {
+      background-color: #f7f7f7;
+      
+      }
+    
+    .wrapper {
+      padding-top: 20px;
+      
+    }
+    
+    .container {
+        display: block;
+        margin: 40px auto;
+        text-align: center;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        width: 60vw;
+        
+        
+      }
+    
+    .card-contents {
+        padding: 5px 5px 30px 5px;
+      }
+    
+    #name,
+    #email,
+    #plus1,
+    #submit {
+        width: 80%;
+        padding: 12px 20px;
+        margin: 8px 20px;
+        box-sizing: border-box;
+        font-size: 18px;      
+      }
+    
+    #response {
+          padding-bottom: 30px;
+      }
+
+    body {
+        background-image: url('https://brand.ku.edu/sites/brand/files/styles/wide_col_lg_6/public/images/2020/KUMarks_Jayhawk.png?h=caf14453&itok=sPfyxUkJ');
+        background-size: cover;
+        background-size: center;
+
+    }
+
+
+      
