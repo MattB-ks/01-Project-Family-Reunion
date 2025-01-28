@@ -26,8 +26,15 @@ function showResponse(event) {
   submissionResponseEl.textContent = response;
 }
 
-
-
+function clearFields() {
+  
+  document.getElementById("name").value = '';
+  document.getElementById("email").value = '';
+  document.getElementById("plus1").value = '';
+  
+}
 
 
 submitEl.addEventListener('click', showResponse);
+
+submitEl.addEventListener('click', clearFields);
