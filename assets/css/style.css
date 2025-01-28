@@ -92,7 +92,7 @@ body {
           padding-bottom: 30px;
       }
 
-    body {
+    .beach {
         background-image: url('https://busites-www.s3.amazonaws.com/blog-margaritaville/2018/07/beach-scene.jpg');
         background-size: cover;
         background-size: center;
