@@ -11,6 +11,10 @@ function showResponse(event) {
   
   event.preventDefault();
   console.log(event);
+  if (nameInput.value.trim() === '' || emailInput.value.trim() === '' || plus1Input.value.trim()  === '') {
+    alert('All fields are required.'); 
+    return
+  }
   const response =
     'Thank you for registering your party of ' +
     plus1Input.value +
@@ -22,11 +26,15 @@ function showResponse(event) {
   submissionResponseEl.textContent = response;
 }
 
-function checkField(){ 
-if (nameInput.trim() === '' || emailInput.value.trim() === '' || plus1Input.value.trim()  === '') {
-  alert('All fields are required.');
-} }
-
+function clearFields() {
+  
+  document.getElementById("name").value = '';
+  document.getElementById("email").value = '';
+  document.getElementById("plus1").value = '';
+  
+}
 
 
 submitEl.addEventListener('click', showResponse);
+
+submitEl.addEventListener('click', clearFields);
