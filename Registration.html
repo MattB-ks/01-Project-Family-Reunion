@@ -14,71 +14,36 @@
 
 <body class="beach">
   <header>
-    <div class="navbar">
-      <a href="/Index.html" class="list-group-item" aria-current="true">Smith Family Reunion</a>
-      <a href="#reunion-info" class="list-group-item">Reunion-info</a>
-      <a href="#location" class="list-group-item">Location</a>
-      <a href="#newsLetter" class="list-group-item">Family Newsletter</a>
-      <a href="/Registration.html" target="_blank" class="list-group-item">Registration</a>
-      <a href="#playList" class="list-group-item">Play List</a>
-      <a href="#contact" class="list-group-item">Contacts</a>
-      <!--<a href="#contact" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">A disabled link item</a> -->
-
-
-  <div class="container" >
-    
-    <div class="wrapper">
-        
-        <div class="badge rounded-pill bg-danger text-light w-100 p-3"><h1>Register Here</h1> </div>
-        
-        <form id="Registration">
-            
-          <input placeholder="name" id="name" /> <br>
-          <input placeholder="email" id="email" /> <br>
-          <input placeholder="number of guests" id="plus1" /> <br>
-          
-          <div class="btn btn-primary w-75 p-3 " id="submit" > <h1>Submit</h1> </div>
-           
-          <div>
-            <h3 id="response"></h3>
-
-          </div>
-        </form>
-        <div class="btn btn-secondary w-75 p-3 mt-3" id="back-to-home">
-          <a href="Index.html" style="color: white; text-decoration: none;">Go Back to Home</a>
-        </div>
-        
+    <header>
+      <div class="navbar">
+        <a href="/Index.html" class="list-group-item" target="_self" aria-current="true">Smith Family Reunion</a>
+        <!--<a href="#reunion-info" class="list-group-item">Reunion-info</a>-->
+        <a href="/Index.html#location" class="list-group-item">Location</a>
+        <a href="/Index.html#newsletter" class="list-group-item">Family Newsletter</a>
+        <a href="/Index.html#playList" class="list-group-item">Play List</a>
+        <a href="/Index.html#contact" class="list-group-item">Contacts</a>
+        <a href="/Registration.html" target="_self" class="list-group-item">Registration</a>
       </div>
-    </div>
-  </header>
+    </header>
 
-  <div class="container">
-
+  <div class="regContainer">
     <div class="wrapper">
-
       <div class="badge rounded-pill bg-danger text-light w-100 p-3">
         <h1>Register Here</h1>
       </div>
-
       <form id="Registration">
-
         <input placeholder="name" id="name" /> <br>
         <input placeholder="email" id="email" /> <br>
         <input placeholder="number of guests" id="plus1" /> <br>
-
         <div class="btn btn-primary w-75 p-3 " id="submit">
           <h1>Submit</h1>
         </div>
-
         <div>
           <h3 id="response"></h3>
-
         </div>
       </form>
     </div>
   </div>
-
   <script src="Assets/JS/Registration.js"></script>
 </body>
-
 </html>
